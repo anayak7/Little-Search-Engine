@@ -20,7 +20,9 @@ public class Tester {
 		lse.makeIndex(docstext, noisewords);
 		
 		
-		System.out.println("top 5 search results are: " + lse.top5search("red", "car"));
+		System.out.println("top 5 search results are: " + lse.top5search("red", "car")); //you can switch out the words
+												//in quotes for words you want to create
+												//a top 5 list for
 	}
 
 }
